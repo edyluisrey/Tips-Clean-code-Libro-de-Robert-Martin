@@ -1,4 +1,4 @@
-# Tips-Clean-code-Robert-Martin-Book-spanish
+# Tips-Clean-code-libro-de-Robert-Martin
  *Estaré mejorando poco a poco según avance la lectura, bienvenido las colaboraciones*
 ## Tabla de Contenido
   1. [Nombres, Funciones, Comentarios](#nombres-funciones-comentarios)
@@ -8,6 +8,7 @@
   1. [Límites o Fronteras](#limites-fronteras)
   1. [Test Unitarios](#test-unitarios)
   1. [Clases](#clases)
+  1. [Sistemas](#sistemas)
 
 
 ## Nombres, Funciones, comentarios
@@ -69,7 +70,21 @@
 ## Clases
   - Una clase debe comenzar con la lista de variable , constantes publicas, privadas, variables de instancia luego funciones
   - Las clases deben ser de tamaño reducido: el tamaño es depende de las responsabilidades y por eso nombre de la clase debe describir responsabilidades que desempeña
+  - Las clases dolo deben tener una responsabilidad (principio de resonsabilidad unica).
+  - Las clases deben tener un número reducido de variables de instancia.
+  - Las clases son más consistente, mientras la cohesion de nuestras clases sea elevada (si las variable se usa en cada metodo es maxima la cohesion)
+  - La division de grandes funciones en mas pequeñas aumenta la proliferación de clases y eso es bueno (las clases se vuelven mas consistentes)
+  - Organizar los cambios con el principio abierto cerrado de OOP (las clases deben ser abierto para extender y cerrado para modificar)
+  - Es recomendable recurrir a interfaces y clases abstractas para aislarnos de los cambios.
+  - Nuestras clases deben depender de abstracciones, no de detalles concretos (DIP principio de inversions de dependencias)
+
+## Sistemas  
+  - El sistema software debe separar el proceso de inicio, en el que se crean los objetos de la aplicación y se conectan las dependencias, de la logica de ejecución.
+  - Una forma de separar la construcción del uso consiste en trasladar todos los aspectos de la constrccion al Main.
+  - Un mecanisco para separar la construcción del uso es la inyección de dependencias.
+  - Conseguir sistemas perfectos a la primera es un mito, por el contrario, debemos implementar hoy, y refactorizar y ampliar mañana, es la esencia de la agilidad. El desarrollo con test, la refactorización y el código limpio que se genera hace que funcione a  nivel de codigo.
 
 
-pag.168
+pag.188
+
 
