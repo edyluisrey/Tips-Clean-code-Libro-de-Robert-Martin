@@ -9,6 +9,7 @@
   1. [Test Unitarios](#test-unitarios)
   1. [Clases](#clases)
   1. [Sistemas](#sistemas)
+  1. [Emergencia](#emergencia)
 
 
 ## Nombres, Funciones, comentarios
@@ -84,7 +85,16 @@
   - Un mecanisco para separar la construcción del uso es la inyección de dependencias.
   - Conseguir sistemas perfectos a la primera es un mito, por el contrario, debemos implementar hoy, y refactorizar y ampliar mañana, es la esencia de la agilidad. El desarrollo con test, la refactorización y el código limpio que se genera hace que funcione a  nivel de codigo.
 
+## Emergencia
+ - Un diseño es sencillo si cumple las siguientes 4 reglas: ejecuta todas las reglas, no contiene duplicados, expresa la intención del programador y  minimiza el número de clases y métodos.
+ - Los duplicados son los mayores enemigos de un sistema bien diseñado
+ - El patrón método de plantillas es una técnica muy usada para eliminar duplicados de nivel superior
+ - El código debe expresar con mas claridad la intención de su autor (reduce el coste de mantenimiento)
+ - Puede expresarse  eligiendo nombres adecuados, responsabilidades adecuadas usar patrones y estándares
 
-pag.188
+## Concurrencia
+
+-
+pag...
 
 
