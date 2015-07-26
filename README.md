@@ -10,6 +10,7 @@
   1. [Clases](#clases)
   1. [Sistemas](#sistemas)
   1. [Emergencia](#emergencia)
+  1. [Concurrencia](#concurrencia)
 
 
 ## Nombres, Funciones, comentarios
@@ -93,8 +94,13 @@
  - Puede expresarse  eligiendo nombres adecuados, responsabilidades adecuadas usar patrones y estándares
 
 ## Concurrencia
+ - La concurrencia es una estrategia de desvinculación. Nos permite desvincular lo que se hace de dónde se hace
+ - La aplicación parece una serie de equipos colaboradores y no un gran bucle principal, esto puede hacer que el sistema sea más facil de comprender 
+ - El diseño cambia al crear programas concurrentes que la de un sistema de un solo proceso
+ - Es importante aplicar principo de responsabilidad única.
+ - Es recomendable separar el código de concurrencia del resto del codigo
+ - Es recomendable encapsualar los datos y limitar el acceso a los datos compartidos
 
--
-pag...
+pag..211
 
 
