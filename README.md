@@ -102,6 +102,6 @@
  - Es recomendable encapsualar los datos y limitar el acceso a los datos compartidos
  - Evitar los objetos compartidos, de esa forma se usa menos syncronizacion, reduce probabilidades de fallos. 
 
-pag..211
+pag..212
 
 
